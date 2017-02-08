@@ -56,6 +56,7 @@ from datadog import ThreadStats
 stats = ThreadStats()
 stats.start()
 stats.increment('home.page.hits')
+sleep(10)
 
 ```
 
